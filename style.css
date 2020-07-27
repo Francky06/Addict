@@ -1,0 +1,153 @@
+
+body{
+  background-color: black
+}
+
+.navbar-brand, .nav-link {
+   color:yellow !important;
+}
+
+.carousel-caption{
+  padding-bottom:20%; 
+}
+
+nav{
+  background-color: black!important;
+}
+
+
+.jumbotron{
+  background-color: black;
+  color: white;
+}
+
+
+.container-fluid{
+	background-color: black;
+}
+
+
+.card{
+	color: #cbcedf;
+	padding-top: 5%;
+	background-color:transparent;
+}
+
+.card-img-top{
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+
+
+.card-body{
+	text-align: center;
+  margin-top:5%; 
+}
+ .card-title{
+  margin-top:5%; 
+ }
+
+ .btn{
+  margin-top:5%;
+ }
+
+.test1{
+	padding-top: 15%;
+}
+
+
+.text-center{
+	color: #cbcedf;
+}
+
+@media(max-width:768px){
+  .card-deck .card {
+    margin:auto;
+}
+}
+
+.form-control{
+  background-color:transparent;
+  color: #cbcedf;
+
+}
+
+.foot ul{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin:0;
+} 
+
+
+.foot{
+  background-color:black;
+  color: #cbcedf;
+  text-align: center;
+  padding-top:2%;
+}
+
+
+
+
+.social-icons {
+  padding: 0;
+  list-style: none;
+  margin: 1em;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin: 0.15em;
+  position: relative;
+  font-size: 1em;
+}
+
+.social-icons i {
+  color: #fff;
+  position: absolute;
+  top: 0.95em;
+  left: 0.96em;
+  transition: all 265ms ease-out;
+}
+
+.social-icons a {
+  display: inline-block;
+}
+
+.social-icons a:before {
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  content: " ";
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  display: block;
+  background: linear-gradient(45deg, #ff003c, #c648c8);
+  transition: all 265ms ease-out;
+}
+
+.social-icons a:hover:before {
+  transform: scale(0);
+  transition: all 265ms ease-in;
+}
+
+.social-icons a:hover i {
+  transform: scale(2.2);
+  -ms-transform: scale(2.2);
+  -webkit-transform: scale(2.2);
+  color: #ff003c;
+  background: -webkit-linear-gradient(45deg, #ff003c, #c648c8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 265ms ease-in;
+}
+
+@media (max-width: 576px) {
+  .cache{
+    width: 200px;
+    height: 200px;
+  }
