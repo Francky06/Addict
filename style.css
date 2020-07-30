@@ -61,10 +61,19 @@ nav{
 	color: #cbcedf;
 }
 
-@media(max-width:768px){
+@media(max-width:576px){
   .card-deck .card {
     margin:auto;
 }
+.carousel-caption{
+  padding-bottom: 10%;
+}
+.tarifs{
+  margin-top:10%!important;
+}
+
+
+
 }
 
 .form-control{
