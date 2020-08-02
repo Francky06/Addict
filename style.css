@@ -3,6 +3,10 @@ body{
   background-color: black
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .navbar-brand, .nav-link {
    color:yellow !important;
 }
@@ -16,6 +20,7 @@ nav{
 }
 
 
+
 .jumbotron{
   background-color: black;
   color: white;
@@ -24,6 +29,10 @@ nav{
 
 .container-fluid{
 	background-color: black;
+}
+
+.card-deck, .row{
+  margin-right: 1%;
 }
 
 
