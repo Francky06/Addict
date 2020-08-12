@@ -12,7 +12,7 @@ html{
 }
 
 .carousel-caption{
-  padding-bottom:20%; 
+  padding-bottom:25%; 
 }
 
 nav{
@@ -164,8 +164,3 @@ nav{
   transition: all 265ms ease-in;
 }
 
-@media (max-width: 576px) {
-  .cache{
-    width: 200px;
-    height: 200px;
-  }
